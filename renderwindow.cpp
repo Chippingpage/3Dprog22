@@ -145,7 +145,7 @@ void RenderWindow::init()
 
 
     mTextures[0]= new Texture();
-    mTextures[1] = new Texture("../3DProg22/Assets/hund.bmp");
+    mTextures[1] = new Texture("../3DProg22/hund.bmp");
 
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D,mTextures[0]->id());
